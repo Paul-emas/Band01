@@ -1,0 +1,276 @@
+.header-banner {
+    height: 55rem;
+    border-width: 80%;
+    position: relative;
+
+    & .col-lg-7 {
+        overflow: hidden;
+
+        &::before {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 50%;
+            left: 0;
+            top: 0;
+            background-color: #fff;
+            transition: .3s ease;
+            animation: toMVT 1.2s 4s 1 forwards;
+        }
+
+        &::after {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 50%;
+            right: 0;
+            bottom: 0;
+            background-color: #fff;
+            transition: .3s ease;
+            animation: toMVB 1.2s 4s 1 forwards;
+        }
+    }
+
+    &::before {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        content: '';
+        height: 1px;
+        width: 60%;
+        background-color: #d2d2d2;
+        transform: translateX(-50%);
+    }
+
+    &--img {
+        width: 100%;
+        margin-top: 10rem;
+    }
+
+    &--content {
+        margin-top: 10rem;
+        color: #293456;
+
+        & .ls {
+            margin-bottom: 2rem !important;
+        }
+
+        & h1 {
+            font-family: 'Poppins' !important;
+            font-size: 5.2rem;
+            font-weight: 500;
+            margin-bottom: 1.2rem;
+
+            .animate {
+
+                &::before {
+                    position: absolute;
+                    content: '';
+                    width: 100%;
+                    height: 95%;
+                    left: 0;
+                    top: 0;
+                    background-color: #293456;
+                    transition: .3s ease;
+                    border-radius: .7rem;
+                }
+
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    width: 100%;
+                    height: 95%;
+                    left: 0;
+                    top: 0;
+                    background-color: #fff;
+                    z-index: 3;
+                    transition: all .3s ease;
+                }
+            }
+
+            & .animate1 {
+                &::before {
+                    animation: toLeft .5s 2s 1 forwards;
+                }
+            }
+
+            & .animate2 {
+                &::before {
+                    animation: toLeft .5s 2.4s 1 forwards;
+                }
+            }
+
+            & .animate3 {
+                &::before {
+                    animation: toLeft .5s 2.6s 1 forwards;
+                }
+            }
+
+
+            & .animate1 {
+                &::after {
+                    animation: toLeft .7s .5s 1 forwards;
+                }
+            }
+
+            & .animate2 {
+                &::after {
+                    animation: toLeft .7s 1.2s 1 forwards;
+                }
+            }
+
+            & .animate3 {
+                &::after {
+                    animation: toLeft .7s 1s 1 forwards;
+                }
+            }
+
+            & span {
+                position: relative;
+                width: 0;
+            }
+
+            & b {
+                font-weight: 800;
+            }
+        }
+
+        & p {
+            font-size: 1.6rem;
+            font-weight: 500;
+            line-height: 1.7;
+            margin-bottom: 2rem;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: '';
+                width: 100%;
+                height: 95%;
+                left: 0;
+                top: 0;
+                background-color: #fff;
+                z-index: 3;
+                transition: all .3s ease;
+                animation: toTop .3s 3s 1 forwards;
+            }
+        }
+
+        & button {
+            border-radius: .6rem;
+            padding: 1.4rem 3.4rem;
+            font-weight: 500;
+            background-color: $color-primary;
+            color: $color-white;
+            border: none;
+            font-size: 1.6rem;
+            outline: none !important;
+            cursor: pointer;
+            overflow: hidden;
+            position: relative;
+            transition: all .3s;
+
+            &:hover {
+                box-shadow: 0 1rem 3rem $color-primary;
+            }
+
+            &:active {
+                transform: scale(.95);
+            }
+            
+
+            &::before {
+                position: absolute;
+                content: '';
+                width: 50%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background-color: #fff;
+                transition: .3s ease;
+                animation: toMVL .6s 3.2s 1 forwards;
+            }
+
+            &::after {
+                position: absolute;
+                content: '';
+                width: 50%;
+                height: 100%;
+                right: 0;
+                top: 0;
+                background-color: #fff;
+                transition: .3s ease;
+                animation: toMVR .6s 3.2s 1 forwards;
+            }
+        }
+    }
+}
+
+
+
+@keyframes toLeft {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0;
+    }
+}
+
+
+@keyframes toTop {
+    from {
+        height: 95%;
+    }
+
+    to {
+        height: 0;
+    }
+}
+
+@keyframes toMVL {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        width: 0;
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes toMVR {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        width: 0;
+        transform: translateX(100%);
+    }
+}
+
+
+@keyframes toMVT {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        height: 0;
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes toMVB {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        height: 0;
+        transform: translateY(100%);
+    }
+}

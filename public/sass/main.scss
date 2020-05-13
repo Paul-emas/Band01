@@ -1,0 +1,18 @@
+// Styling
+
+// ABSTRACT
+@import "abstarts/variables";
+
+//  BASE
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+// COMPONENTS
+@import "components/nav";
+
+// LAYOUT   
+@import "layout/header";
+@import "layout/banner";
+@import "layout/section-talent";
+

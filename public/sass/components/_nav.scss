@@ -1,0 +1,45 @@
+.header-nav {
+    height: 8rem;
+    border-bottom: 1px solid #d2d2d2;
+    background-color: $color-white;
+
+    & .row {
+        position: relative;
+        top: 1.4rem;
+
+        & ul {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: .5rem;
+
+            & .active {
+                border: 2px solid $color-primary;
+                border-radius: .6rem;
+
+                & a {
+                    color: $color-primary;
+                }
+            }
+
+            
+            & .active-2 {
+                background-color: $color-primary;
+
+                & a {
+                    color: $color-white;
+                }
+            }
+
+            & li {
+                display: inline !important;
+                font-size: 1.4rem;
+                padding: 1.1rem 3rem;
+
+                & a {
+                    color: $color-black;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
