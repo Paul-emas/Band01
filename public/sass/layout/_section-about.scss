@@ -1,0 +1,54 @@
+.section-about {
+    background-color: $color-primary;
+
+    & .sec-talent--headerBox h2 , p {
+        color: $color-white;
+    }
+
+    & .sec-link {
+        background-color: $color-white;
+        color: $color-primary;
+    }
+
+    & .row {
+        padding: 0 10rem;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 5rem;
+
+        & .col-lg-3 {
+            max-width: 24% !important;
+            height: 10rem;
+            text-align: center !important;
+            padding: 3rem 0;
+            display: table;
+            clear: both;
+
+            &:hover {
+                outline: 1px solid #fff;
+            }
+
+            & i {
+                color: $color-white;
+                font-size: 4rem;
+                margin-bottom: 2rem;
+            }
+
+            & h3 {
+                color: $color-white;
+                font-size: 1.6rem;
+                font-weight: 500;
+                text-transform: capitalize;
+                margin-bottom: 1rem;
+            }
+
+            & p {
+                width: 70%;
+                font-size: 1.2rem;
+                color: $color-white;
+                margin: 0 auto;
+                line-height: 1.4;
+            }
+        }
+    }
+}

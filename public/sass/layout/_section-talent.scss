@@ -1,10 +1,10 @@
 .section-talent {
 
    & .row {
-       margin-top: 5rem;
+       padding-bottom: 5rem;
 
     & .col-lg-6 {
-        margin-bottom: 3rem;
+        margin-bottom: 5rem;
 
         &:last-child {
             position: relative;
@@ -15,35 +15,7 @@
    }
      
     & .sec-talent {
-
-        &--headerBox {
-            width: 60%;
-            margin: 0 auto;
-            text-align: center;
-
-            & svg {
-                margin-bottom: 2rem;
-            }
-
-            & h2 {
-                color: $color-primary;
-                text-transform: capitalize;
-                font-weight: 600;
-                margin-bottom: 1rem;
-            }
-
-            & p {
-                color: #293456;
-                font-size: 1.3rem;
-                font-weight: 500;
-                width: 70%;
-                position: relative;
-                left: 50%;
-                line-height: 1.4;
-                transform: translateX(-50%);
-            }
-        }
-
+        
         &--content {
             width: 90%;
             background-color: #4A6FE1;
@@ -88,6 +60,11 @@
                 font-weight: 700;
                 font-size: 1.3rem;
                 text-transform: capitalize !important;
+                transition: all .3s;
+
+                &:hover {
+                    box-shadow: 0 1rem 2rem #3953a1;
+                }
             }
         }
     }
