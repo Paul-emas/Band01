@@ -69,8 +69,14 @@
                <!-- Section candidate -->
                <section-candidate></section-candidate>
 
-               <!-- Section About -->
+               <!-- Section about -->
                <section-about></section-about>
+
+               <!-- Section client -->
+               <section-client></section-client>
+
+               <!-- Section blog -->
+               <section-blog></section-blog>
             </main>
         </header>
     </div>
@@ -92,6 +98,9 @@ import Talent from "./Talent";
 import Works from "./Works";
 import Candidate from "./Candidate";
 import About from "./About";
+import Client from "./Client"; 
+import Blog from "./Blog";
+
     export default {
         data: function () {
             return {
@@ -117,7 +126,9 @@ import About from "./About";
             "section-talent": Talent,
             "section-work": Works,
             "section-candidate": Candidate,
-            "section-about": About
+            "section-about": About,
+            "section-client": Client,
+            "section-blog": Blog
         }
     }
 </script>

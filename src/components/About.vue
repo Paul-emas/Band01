@@ -117,28 +117,29 @@
                 <p>Bacon ipsum dolor amet meatloaf landjaeger swine cupim. Ham hock pastrami brisket
                     bresaola.</p>
             </div>
-        </div>
-        <div class="row">
-           <div class="col-lg-3">
-               <i class="fa fa-building"></i>
-               <h3>Work in Any Organization</h3>
-               <p>Bacon ipsum dolor amet meatloaf landjaeger swine cupim. Ham hock pastrami brisket bresaola.</p>
-           </div>
-           <div class="col-lg-3">
-               <i class="fa fa-comment"></i>
-               <h3>Seamlesss Communication</h3>
-               <p>Bacon ipsum dolor amet meatloaf landjaeger swine cupim. Ham hock pastrami brisket bresaola.</p>
-           </div>
-           <div class="col-lg-3">
-               <i class="fa fa-thumbs-up"></i>
-               <h3>Zero Risk</h3>
-               <p>Bacon ipsum dolor amet meatloaf landjaeger swine cupim. Ham hock pastrami brisket bresaola.</p>
-           </div>
-           <div class="col-lg-3">
-               <i class="fa fa-star"></i>
-               <h3>Quality Work</h3>
-               <p>Bacon ipsum dolor amet meatloaf landjaeger swine cupim. Ham hock pastrami brisket bresaola.</p>
-           </div>
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <i class="fa fa-building"></i>
+                    <h3>Work in Any Organization</h3>
+                    <p>Bacon ipsum dolor amet meatloaf landjaeger swine cupim. Ham hock pastrami brisket bresaola.</p>
+                </div>
+                <div class="col-lg-3">
+                    <i class="fa fa-comment"></i>
+                    <h3>Seamlesss Communication</h3>
+                    <p>Bacon ipsum dolor amet meatloaf landjaeger swine cupim. Ham hock pastrami brisket bresaola.</p>
+                </div>
+                <div class="col-lg-3">
+                    <i class="fa fa-thumbs-up"></i>
+                    <h3>Zero Risk</h3>
+                    <p>Bacon ipsum dolor amet meatloaf landjaeger swine cupim. Ham hock pastrami brisket bresaola.</p>
+                </div>
+                <div class="col-lg-3">
+                    <i class="fa fa-star"></i>
+                    <h3>Quality Work</h3>
+                    <p>Bacon ipsum dolor amet meatloaf landjaeger swine cupim. Ham hock pastrami brisket bresaola.</p>
+                </div>
+            </div>
         </div>
 
         <div class="container">

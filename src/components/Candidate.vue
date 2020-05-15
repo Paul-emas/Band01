@@ -86,44 +86,46 @@
                 <p>Bacon ipsum dolor amet meatloaf landjaeger swine cupim. Ham hock pastrami brisket
                     bresaola.</p>
             </div>
+
+            <div class="row">
+                <div class="col-lg-2">
+                    <a href="#">
+                        <img src="/img/candidates/can-0.png" alt="candidate-img" />
+                        <p class="name">Victor Olukotun</p>
+                        <p class="title">UI/UX Designer</p>
+                    </a>
+                </div>
+                <div class="col-lg-2">
+                    <a href="#">
+                        <img src="/img/candidates/can-1.png" alt="candidate-img" />
+                        <p class="name">Babajide Agboola</p>
+                        <p class="title">Interim CFO</p>
+                    </a>
+                </div>
+                <div class="col-lg-2">
+                    <a href="#">
+                        <img src="/img/candidates/can-2.png" alt="candidate-img" />
+                        <p class="name">Abigail Aremu</p>
+                        <p class="title">JavaScript Developer</p>
+                    </a>
+                </div>
+                <div class="col-lg-2">
+                    <a href="#">
+                        <img src="/img/candidates/can-3.png" alt="candidate-img" />
+                        <p class="name">Ezechukwu Nonso</p>
+                        <p class="title">Product Manager</p>
+                    </a>
+                </div>
+                <div class="col-lg-2">
+                    <a href="#">
+                        <img src="/img/candidates/can-4.png" alt="candidate-img" />
+                        <p class="name">Lateefah Abass</p>
+                        <p class="title">C# Developer</p>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <div class="col-lg-2">
-                <a href="#">
-                    <img src="/img/candidates/can-0.png" alt="candidate-img" />
-                    <p class="name">Victor Olukotun</p>
-                    <p class="title">UI/UX Designer</p>
-                </a>
-            </div>
-            <div class="col-lg-2">
-                <a href="#">
-                    <img src="/img/candidates/can-1.png" alt="candidate-img" />
-                    <p class="name">Babajide Agboola</p>
-                    <p class="title">Interim CFO</p>
-                </a>
-            </div>
-            <div class="col-lg-2">
-                <a href="#">
-                    <img src="/img/candidates/can-2.png" alt="candidate-img" />
-                    <p class="name">Abigail Aremu</p>
-                    <p class="title">JavaScript Developer</p>
-                </a>
-            </div>
-            <div class="col-lg-2">
-                <a href="#">
-                    <img src="/img/candidates/can-3.png" alt="candidate-img" />
-                    <p class="name">Ezechukwu Nonso</p>
-                    <p class="title">Product Manager</p>
-                </a>
-            </div>
-            <div class="col-lg-2">
-                <a href="#">
-                    <img src="/img/candidates/can-4.png" alt="candidate-img" />
-                    <p class="name">Lateefah Abass</p>
-                    <p class="title">C# Developer</p>
-                </a>
-            </div>
-        </div>
+
 
         <div class="container">
             <a href="#" class="sec-link">Hire now</a>

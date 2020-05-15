@@ -1,0 +1,32 @@
+.section-blog {
+    background-image: url('../img/bg-0.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: BG .6s inifinte both fowards !important;
+    transition: all 1s ease;
+
+    & .row {
+        & .col-lg-4 {
+            overflow: hidden;
+
+            & figure {
+                height: 25rem;
+                background-image: url('../img/blog/blog-0.jpg');
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: center left;
+                border-top-left-radius: .7rem;
+                border-top-right-radius: .7rem;
+            }
+
+            & .blog-img-2 {
+                background-image: url('../img/blog/blog-1.jpg');
+            }
+
+            & .blog-img-3 {
+                background-image: url('../img/blog/blog-2.jpg');
+            }
+        }
+    }
+}

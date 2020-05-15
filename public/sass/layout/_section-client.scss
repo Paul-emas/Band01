@@ -1,0 +1,14 @@
+.section-client {
+
+    & .row {
+        padding-bottom: 10rem !important;
+
+        & .col-lg-3 {
+            text-align: center;
+
+            & .client-lg {
+                margin-top: 2rem;
+            }
+        }
+    }
+}
