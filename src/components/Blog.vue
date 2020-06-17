@@ -54,26 +54,38 @@
                     bresaola.</p>
             </div>
 
-            <div class="row">
+            <div class="row row-container">
                 <div class="col-lg-4">
-                    <figure class="blog-img"></figure>
-                    <div class="blog-content">
-                        <h2>Bacon Ipsum Dolor</h2>
-                        <p>Bacon ipsum dolor amet meatloaf landjaeger swine cupim. Ham hock pastrami brisket bresaola.</p>
+                    <div class="blog-container">
+                        <figure class="blog-img"></figure>
+                        <div class="blog-content">
+                            <h2>Bacon Ipsum Dolor</h2>
+                            <p>Bacon ipsum dolor amet meatloaf landjaeger swine cupim. Ham hock pastrami brisket
+                                bresaola.</p>
+                            <a href="#">Read Article</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <figure class="blog-img blog-img-2"></figure>
-                    <div class="blog-content">
-                        <h2>Bacon Ipsum Dolor</h2>
-                        <p>Bacon ipsum dolor amet meatloaf landjaeger swine cupim. Ham hock pastrami brisket bresaola.</p>
+                    <div class="blog-container">
+                        <figure class="blog-img blog-img-2"></figure>
+                        <div class="blog-content">
+                            <h2>Bacon Ipsum Dolor</h2>
+                            <p>Bacon ipsum dolor amet meatloaf landjaeger swine cupim. Ham hock pastrami brisket
+                                bresaola.</p>
+                            <a href="#">Read Article</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <figure class="blog-img blog-img-3"></figure>
-                    <div class="blog-content">
-                        <h2>Bacon Ipsum Dolor</h2>
-                        <p>Bacon ipsum dolor amet meatloaf landjaeger swine cupim. Ham hock pastrami brisket bresaola.</p>
+                    <div class="blog-container">
+                        <figure class="blog-img blog-img-3"></figure>
+                        <div class="blog-content">
+                            <h2>Bacon Ipsum Dolor</h2>
+                            <p>Bacon ipsum dolor amet meatloaf landjaeger swine cupim. Ham hock pastrami brisket
+                                bresaola.</p>
+                            <a href="#">Read Article</a>
+                        </div>
                     </div>
                 </div>
             </div>
