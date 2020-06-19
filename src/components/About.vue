@@ -143,7 +143,7 @@
         </div>
 
         <div class="container">
-            <a href="#" class="sec-link">Get Started</a>
+            <button class="sec-link">Get Started</button>
         </div>
     </section>
 </template>

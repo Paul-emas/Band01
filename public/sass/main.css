@@ -47,8 +47,8 @@ h1, h2 {
   position: relative;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  left: 37%;
-  padding: 1rem 10rem;
+  left: 50%;
+  padding: 1.2rem 10rem;
   background-color: #4A6FE1;
   color: #fff;
   border-radius: 0.7rem;
@@ -57,11 +57,14 @@ h1, h2 {
   text-transform: capitalize;
   -webkit-transition: all .3s;
   transition: all .3s;
+  outline: none !important;
+  border: none !important;
+  cursor: pointer;
 }
 
 .sec-link:hover {
-  -webkit-box-shadow: 0 1rem 3rem #4A6FE1 !important;
-          box-shadow: 0 1rem 3rem #4A6FE1 !important;
+  -webkit-box-shadow: 0 1rem 2rem #4A6FE1 !important;
+          box-shadow: 0 1rem 2rem #4A6FE1 !important;
 }
 
 .sec-talent--headerBox {
@@ -319,8 +322,8 @@ h1, h2 {
 }
 
 .header-banner--content button:hover {
-  -webkit-box-shadow: 0 1rem 3rem #4A6FE1;
-          box-shadow: 0 1rem 3rem #4A6FE1;
+  -webkit-box-shadow: 0 1rem 2rem #4A6FE1;
+          box-shadow: 0 1rem 2rem #4A6FE1;
 }
 
 .header-banner--content button:active {
@@ -834,5 +837,40 @@ h1, h2 {
 
 .section-blog .row .col-lg-4 .blog-img-3 {
   background-image: url("../img/blog/blog-2.jpg");
+}
+
+.footer-caption {
+  color: #9A9FBF;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.footer-caption span {
+  color: #4A6FE1;
+  font-weight: 700;
+}
+
+.footer .sec-link {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+
+.footer ul {
+  margin-top: 2rem;
+}
+
+.footer ul li {
+  list-style: none;
+  padding: 1rem 0;
+}
+
+.footer ul li a {
+  color: #9A9FBF;
+  font-size: 1.4rem;
+}
+
+.footer ul li a:hover {
+  color: #4A6FE1;
 }
 /*# sourceMappingURL=main.css.map */

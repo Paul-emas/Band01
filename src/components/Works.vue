@@ -100,7 +100,7 @@
                 </div>
             </div>
 
-            <a href="#" class="sec-link">Learn more</a>
+            <button class="sec-link">Learn more</button>
         </div>
     </section>
 </template>

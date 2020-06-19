@@ -1,0 +1,38 @@
+.footer {
+
+    &-caption {
+        color: #9A9FBF;
+        font-size: 1.3rem;
+        text-align: center;
+        margin-bottom: 2rem;
+
+        & span {
+            color: $color-primary;
+            font-weight: 700;
+        }
+    }
+
+    & .sec-link {
+        margin-top: 3rem;
+        margin-bottom: 6rem;
+    }
+
+
+    & ul {
+        margin-top: 2rem;
+
+        & li {
+            list-style: none;
+            padding: 1rem 0;
+
+            & a {
+                color: #9A9FBF;
+                font-size: 1.4rem;
+                
+                &:hover {
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+}
