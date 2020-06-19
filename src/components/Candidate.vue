@@ -128,7 +128,7 @@
 
 
         <div class="container">
-            <a href="#" class="sec-link">Hire now</a>
+            <button class="sec-link">Hire now</button>
         </div>
     </section>
 </template>

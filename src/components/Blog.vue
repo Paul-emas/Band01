@@ -90,7 +90,7 @@
                 </div>
             </div>
 
-            <a href="#" class="sec-link">See more</a>
+            <button class="sec-link">See more</button>
         </div>
 
     </section>

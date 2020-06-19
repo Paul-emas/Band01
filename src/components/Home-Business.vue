@@ -79,6 +79,9 @@
                <section-blog></section-blog>
             </main>
         </header>
+
+        <!-- Footer -->
+        <app-footer></app-footer>
     </div>
 </template>
 
@@ -100,6 +103,7 @@ import Candidate from "./Candidate";
 import About from "./About";
 import Client from "./Client"; 
 import Blog from "./Blog";
+import Footer from './Footer';
 
     export default {
         data: function () {
@@ -128,7 +132,8 @@ import Blog from "./Blog";
             "section-candidate": Candidate,
             "section-about": About,
             "section-client": Client,
-            "section-blog": Blog
+            "section-blog": Blog,
+            "app-footer": Footer
         }
     }
 </script>

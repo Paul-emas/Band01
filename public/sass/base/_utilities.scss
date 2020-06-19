@@ -6,8 +6,8 @@
 .sec-link {
     position: relative;
     transform: translateX(-50%);
-    left: 37%;
-    padding: 1rem 10rem;
+    left: 50%;
+    padding: 1.2rem 10rem;
     background-color: $color-primary;
     color: $color-white;
     border-radius: 0.7rem;
@@ -15,9 +15,12 @@
     font-weight: 600;
     text-transform: capitalize;
     transition: all .3s;
+    outline: none !important;
+    border: none !important;
+    cursor: pointer;
 
     &:hover {
-        box-shadow: 0 1rem 3rem $color-primary !important;
+        box-shadow: 0 1rem 2rem $color-primary !important;
     }
 }
 

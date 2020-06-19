@@ -34,7 +34,7 @@
 
 
         <div class="container">
-            <a href="#" class="sec-link">Hire from Band01</a>
+            <button class="sec-link">Hire from Band01</button>
         </div>
     </section>
 </template>
