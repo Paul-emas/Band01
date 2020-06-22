@@ -1,5 +1,9 @@
 .footer {
 
+    & .sec-padding {
+        padding-bottom: 3rem;
+    }
+
     &-caption {
         color: #9A9FBF;
         font-size: 1.3rem;
@@ -17,6 +21,85 @@
         margin-bottom: 6rem;
     }
 
+    &-copyright {
+        padding: 5rem 0;
+        background-color: #2A3456;
+
+        // & .text {
+        //     color: $color-white;
+        //     font-size: 1.3rem;
+        //     text-align: center;
+        //     margin-top: 1.5rem;
+        // }
+    }
+
+    &-hire {
+        width: 100%;
+        padding: 6.7rem 0;
+        background-color: #F6F8FD;
+        text-align: center;
+        position: relative;
+
+        & .row {
+            margin-top: 1.2rem;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            float: left;
+            left: 0;
+            width: 10rem;
+            height: 100%;
+            background-image: url('../svgs/male-user.svg');
+            background-repeat: no-repeat;
+            top: 0;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            float: right;
+            right: 0;
+            width: 10rem;
+            height: 100%;
+            background-image: url('../svgs/female-user.svg');
+            background-repeat: no-repeat;
+            background-position: right right;
+            top: 0;
+        }
+
+        & .text {
+            font-size: 2.2rem;
+            margin-top: 1rem;
+            color: #293456;
+            font-weight: 500;
+        }
+
+        & button {
+            border-radius: .6rem;
+            padding: 1.2rem 3.4rem;
+            font-weight: 500;
+            background-color: $color-primary;
+            color: $color-white;
+            border: none;
+            font-size: 1.6rem;
+            outline: none !important;
+            cursor: pointer;
+            overflow: hidden;
+            position: relative;
+            transition: all .3s;
+
+            &:hover {
+                box-shadow: 0 1rem 2rem $color-primary;
+            }
+
+            &:active {
+                transform: scale(.95);
+            }
+        }
+    }
+
 
     & ul {
         margin-top: 2rem;
@@ -28,7 +111,7 @@
             & a {
                 color: #9A9FBF;
                 font-size: 1.4rem;
-                
+
                 &:hover {
                     color: $color-primary;
                 }
