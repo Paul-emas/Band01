@@ -171,7 +171,7 @@ a:active {
 }
 
 .carousel--stars i {
-  color: #FF6935;
+  color: #FF6935 !important;
   font-size: 1.8rem;
   margin-right: .5rem;
 }
@@ -300,6 +300,15 @@ a:active {
   margin-top: 1rem;
   width: 35%;
   cursor: pointer;
+}
+
+.flickity-button  {
+  background: none !important;
+  color: #f87346 !important;
+}
+
+.flickity-page-dots .dot {
+  background: #FF6935 !important;
 }
 
 .dashboard__profile--userInfo {
