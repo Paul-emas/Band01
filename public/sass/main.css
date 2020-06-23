@@ -151,17 +151,18 @@ h1, h2 {
   font-weight: 600;
 }
 
-.header-banner {
+.header--banner {
   height: 55rem;
   border-width: 80%;
   position: relative;
+  background-color: #fff;
 }
 
-.header-banner .col-lg-7 {
+.header--banner .col-lg-7 {
   overflow: hidden;
 }
 
-.header-banner .col-lg-7::before {
+.header--banner .col-lg-7::before {
   position: absolute;
   content: '';
   width: 100%;
@@ -175,7 +176,7 @@ h1, h2 {
           animation: toMVT 1.2s 4s 1 forwards;
 }
 
-.header-banner .col-lg-7::after {
+.header--banner .col-lg-7::after {
   position: absolute;
   content: '';
   width: 100%;
@@ -189,7 +190,7 @@ h1, h2 {
           animation: toMVB 1.2s 4s 1 forwards;
 }
 
-.header-banner::before {
+.header--banner::before {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -201,28 +202,28 @@ h1, h2 {
           transform: translateX(-50%);
 }
 
-.header-banner--img {
+.header--banner--img {
   width: 100%;
   margin-top: 10rem;
 }
 
-.header-banner--content {
+.header--banner--content {
   margin-top: 10rem;
   color: #293456;
 }
 
-.header-banner--content .ls {
+.header--banner--content .ls {
   margin-bottom: 2rem !important;
 }
 
-.header-banner--content h1 {
+.header--banner--content h1 {
   font-family: 'Poppins' !important;
   font-size: 5.2rem;
   font-weight: 500;
   margin-bottom: 1.2rem;
 }
 
-.header-banner--content h1 .animate::before {
+.header--banner--content h1 .animate::before {
   position: absolute;
   content: '';
   width: 100%;
@@ -235,7 +236,7 @@ h1, h2 {
   border-radius: .7rem;
 }
 
-.header-banner--content h1 .animate::after {
+.header--banner--content h1 .animate::after {
   position: absolute;
   content: '';
   width: 100%;
@@ -248,46 +249,46 @@ h1, h2 {
   transition: all .3s ease;
 }
 
-.header-banner--content h1 .animate1::before {
+.header--banner--content h1 .animate1::before {
   -webkit-animation: toLeft .5s 2s 1 forwards;
           animation: toLeft .5s 2s 1 forwards;
 }
 
-.header-banner--content h1 .animate2::before {
+.header--banner--content h1 .animate2::before {
   -webkit-animation: toLeft .5s 2.4s 1 forwards;
           animation: toLeft .5s 2.4s 1 forwards;
 }
 
-.header-banner--content h1 .animate3::before {
+.header--banner--content h1 .animate3::before {
   -webkit-animation: toLeft .5s 2.6s 1 forwards;
           animation: toLeft .5s 2.6s 1 forwards;
 }
 
-.header-banner--content h1 .animate1::after {
+.header--banner--content h1 .animate1::after {
   -webkit-animation: toLeft .7s .5s 1 forwards;
           animation: toLeft .7s .5s 1 forwards;
 }
 
-.header-banner--content h1 .animate2::after {
+.header--banner--content h1 .animate2::after {
   -webkit-animation: toLeft .7s 1.2s 1 forwards;
           animation: toLeft .7s 1.2s 1 forwards;
 }
 
-.header-banner--content h1 .animate3::after {
+.header--banner--content h1 .animate3::after {
   -webkit-animation: toLeft .7s 1s 1 forwards;
           animation: toLeft .7s 1s 1 forwards;
 }
 
-.header-banner--content h1 span {
+.header--banner--content h1 span {
   position: relative;
   width: 0;
 }
 
-.header-banner--content h1 b {
+.header--banner--content h1 b {
   font-weight: 800;
 }
 
-.header-banner--content p {
+.header--banner--content p {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.7;
@@ -295,7 +296,7 @@ h1, h2 {
   position: relative;
 }
 
-.header-banner--content p::after {
+.header--banner--content p::after {
   position: absolute;
   content: '';
   width: 100%;
@@ -310,7 +311,7 @@ h1, h2 {
           animation: toTop .3s 3s 1 forwards;
 }
 
-.header-banner--content button {
+.header--banner--content button {
   border-radius: .6rem;
   padding: 1.4rem 3.4rem;
   font-weight: 500;
@@ -326,17 +327,17 @@ h1, h2 {
   transition: all .3s;
 }
 
-.header-banner--content button:hover {
+.header--banner--content button:hover {
   -webkit-box-shadow: 0 1rem 2rem #4A6FE1;
           box-shadow: 0 1rem 2rem #4A6FE1;
 }
 
-.header-banner--content button:active {
+.header--banner--content button:active {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
 }
 
-.header-banner--content button::before {
+.header--banner--content button::before {
   position: absolute;
   content: '';
   width: 50%;
@@ -350,7 +351,7 @@ h1, h2 {
           animation: toMVL .6s 3.2s 1 forwards;
 }
 
-.header-banner--content button::after {
+.header--banner--content button::after {
   position: absolute;
   content: '';
   width: 50%;
@@ -690,20 +691,20 @@ h1, h2 {
   text-transform: capitalize;
 }
 
-.section-about {
+.section-about2 {
   background-color: #4A6FE1;
 }
 
-.section-about .sec-talent--headerBox h2, .section-about p {
+.section-about2 .sec-talent--headerBox h2, .section-about2 p {
   color: #fff;
 }
 
-.section-about .sec-link {
+.section-about2 .sec-link {
   background-color: #fff;
   color: #4A6FE1;
 }
 
-.section-about .row {
+.section-about2 .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -713,7 +714,7 @@ h1, h2 {
   padding-bottom: 5rem;
 }
 
-.section-about .row .col-lg-3 {
+.section-about2 .row .col-lg-3 {
   max-width: 24% !important;
   height: 10rem;
   text-align: center !important;
@@ -722,17 +723,17 @@ h1, h2 {
   clear: both;
 }
 
-.section-about .row .col-lg-3:hover {
+.section-about2 .row .col-lg-3:hover {
   outline: 1px solid #fff;
 }
 
-.section-about .row .col-lg-3 i {
+.section-about2 .row .col-lg-3 i {
   color: #fff;
   font-size: 4rem;
   margin-bottom: 2rem;
 }
 
-.section-about .row .col-lg-3 h3 {
+.section-about2 .row .col-lg-3 h3 {
   color: #fff;
   font-size: 1.6rem;
   font-weight: 500;
@@ -740,7 +741,7 @@ h1, h2 {
   margin-bottom: 1rem;
 }
 
-.section-about .row .col-lg-3 p {
+.section-about2 .row .col-lg-3 p {
   width: 80%;
   font-size: 1.2rem;
   color: #fff;
@@ -950,8 +951,9 @@ h1, h2 {
 }
 
 .footer ul li a {
-  color: #9A9FBF;
   font-size: 1.4rem;
+  color: #9A9FBF;
+  cursor: pointer;
 }
 
 .footer ul li a:hover {

@@ -109,8 +109,9 @@
             padding: 1rem 0;
 
             & a {
-                color: #9A9FBF;
                 font-size: 1.4rem;
+                color: #9A9FBF;
+                cursor: pointer;
 
                 &:hover {
                     color: $color-primary;
