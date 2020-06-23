@@ -325,7 +325,7 @@
                     <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
                         <div class="carousel__content carousel-cell">
                             <div class="carousel--bg">
-                                <img src="assets/carousel/quotes.png" alt="quotes-bg" class="quotes" />
+                                <img src="community/img/quotes.png" alt="quotes-bg" class="quotes" />
                                 <img src="community/img/user.png" alt="user-bg" />
                             </div>
                             <h1 class="carousel--name">Mosope Coker</h1>
@@ -345,7 +345,7 @@
 
                         <div class="carousel__content carousel-cell">
                             <div class="carousel--bg">
-                                <img src="assets/carousel/quotes.png" alt="quotes-bg" class="quotes" />
+                                <img src="community/img/quotes.png" alt="quotes-bg" class="quotes" />
                                 <img src="community/img/user.png" alt="user-bg" />
                             </div>
                             <h1 class="carousel--name">Mosope Coker</h1>
@@ -365,7 +365,7 @@
 
                         <div class="carousel__content carousel-cell">
                             <div class="carousel--bg">
-                                <img src="assets/carousel/quotes.png" alt="quotes-bg" class="quotes" />
+                                <img src="community/img/quotes.png" alt="quotes-bg" class="quotes" />
                                 <img src="community/img/user.png" alt="user-bg" />
                             </div>
                             <h1 class="carousel--name">Mosope Coker</h1>
@@ -385,7 +385,7 @@
 
                         <div class="carousel__content carousel-cell">
                             <div class="carousel--bg">
-                                <img src="assets/carousel/quotes.png" alt="quotes-bg" class="quotes" />
+                                <img src="community/img/quotes.png" alt="quotes-bg" class="quotes" />
                                 <img src="community/img/user.png" alt="user-bg" />
                             </div>
                             <h1 class="carousel--name">Mosope Coker</h1>
@@ -405,7 +405,7 @@
 
                         <div class="carousel__content carousel-cell">
                             <div class="carousel--bg">
-                                <img src="assets/carousel/quotes.png" alt="quotes-bg" class="quotes" />
+                                <img src="community/img/quotes.png" alt="quotes-bg" class="quotes" />
                                 <img src="community/img/user.png" alt="user-bg" />
                             </div>
                             <h1 class="carousel--name">Mosope Coker</h1>
