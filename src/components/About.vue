@@ -1,5 +1,5 @@
 <template>
-    <section class="section-about sec-padding">
+    <section class="section-about2 sec-padding">
         <div class="container">
             <div class="sec-talent--headerBox">
                 <svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">

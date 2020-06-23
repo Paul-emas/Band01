@@ -1,6 +1,6 @@
 <template>
     <div>
-        <header class="header">
+        <div class="header2">
             <nav class="header-nav">
                 <div class="container">
                     <div class="row">
@@ -22,21 +22,21 @@
 
 
             <!-- Header -->
-            <div class="header-banner">
+            <div class="header--banner">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5">
-                            <div class="header-banner--content">
+                            <div class="header--banner--content">
                                 <h1><span class="animate animate1">Talent is waiting</span></h1>
                                 <h1><span class="animate animate2">for you,</span></h1>
                                 <h1 class="ls"><span class="animate animate3">yes <b>YOU!</b></span></h1>
                                 <p>Bacon ipsum dolor amet meatloaf landjaeger swine cupim. Ham hock pastrami brisket
                                     bresaola.</p>
-                                <button>Get Started!</button>
+                                <router-link to="/freelancer" tag="button">Get Started!</router-link>
                             </div>
                         </div>
                         <div class="col-lg-7">
-                            <svg class="header-banner--img" viewBox="0 0 716 398" fill="none"
+                            <svg class="header--banner--img" viewBox="0 0 716 398" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <g opacity="0.99">
                                     <rect width="716" height="397.441" fill="url(#pattern0)" />
@@ -57,31 +57,32 @@
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Main content -->
-            <main class="start">
-              <!-- Section Talent -->
-              <section-talent></section-talent>
+        <!-- Main content -->
+        <main class="start">
+            <!-- Section Talent -->
+            <section-talent></section-talent>
 
-               <!-- Section Works -->
-               <section-work></section-work>
+            <!-- Section Works -->
+            <section-work></section-work>
 
-               <!-- Section candidate -->
-               <section-candidate></section-candidate>
+            <!-- Section candidate -->
+            <section-candidate></section-candidate>
 
-               <!-- Section about -->
-               <section-about></section-about>
+            <!-- Section about -->
+            <section-about></section-about>
 
-               <!-- Section client -->
-               <section-client></section-client>
+            <!-- Section client -->
+            <section-client></section-client>
 
-               <!-- Section blog -->
-               <section-blog></section-blog>
-            </main>
-        </header>
+            <!-- Section blog -->
+            <section-blog></section-blog>
+        </main>
+
 
         <!-- Footer -->
-        <app-footer></app-footer>
+        <app-footer v-slot:footer></app-footer>
     </div>
 </template>
 
@@ -97,13 +98,13 @@
 
 
 <script>
-import Talent from "./Talent";
-import Works from "./Works";
-import Candidate from "./Candidate";
-import About from "./About";
-import Client from "./Client"; 
-import Blog from "./Blog";
-import Footer from './Footer';
+    import Talent from "./Talent";
+    import Works from "./Works";
+    import Candidate from "./Candidate";
+    import About from "./About";
+    import Client from "./Client";
+    import Blog from "./Blog";
+    import Footer from './Footer';
 
     export default {
         data: function () {
